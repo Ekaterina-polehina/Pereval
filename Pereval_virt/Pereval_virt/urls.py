@@ -23,15 +23,15 @@ from drf_yasg.views import get_schema_view
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Simple Inventory API",
-        default_version='1.0.0',
-        description="This is a simple API",
-        terms_of_service="https://virtserver.swaggerhub.com/DIMON04051975_1/PerevalDK/1.0.0",
-        contact=openapi.Contact(email="dimon04051975@mail.ru"),
+        title = "Simple Inventory API",
+        default_version = '1.0.0',
+        description = "This is a simple API",
+        terms_of_service = "https://virtserver.swaggerhub.com/Kati0709_1/Pereval/1.0.0",
+        contact=openapi.Contact(email="kati0709@mail.ru"),
         license=openapi.License(name="BSD License"),
     ),
-    public=True,
-    permission_classes=[permissions.AllowAny],
+    public = True,
+    permission_classes = [permissions.AllowAny],
 )
 
 urlpatterns = [
